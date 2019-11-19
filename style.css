@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(59, 59, 59);
+    background-image: url'images/baguette.png');
+
+}
+
+
+.img_baguette {
+    background-size: cover;
+}
+
+.first_img {
+    
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+}
+
+.rectangle{
+	width:900px;
+	height:600px;
+    background:rgb(255, 255, 255);
+    
+    position: absolute;
+    top: 17em;
+    right: 8em;
+    
+    opacity: 0.33;
+}
+
+/* gallery photo */
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
