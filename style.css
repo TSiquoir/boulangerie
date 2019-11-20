@@ -2,6 +2,10 @@ body {
     background-color: #343a40;
 }
 
+.menu {
+    text-decoration-color: darkorchid;
+}
+
 header {
     background-image: url('images/baguette.png'); 
     background-size: cover;
@@ -12,13 +16,39 @@ header {
 
 
 .presentation {
-    margin-top: 15em; 
+    margin-top: 18em; 
     
 }
 
 
+.produit {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
 
-.gal {
-    width:50px;
-	height:50px;
+.line1_img {
+
+margin-bottom: 2em;
+}
+
+.line2_img {
+    margin-bottom: 5em;
+}
+
+.news {
+    margin-bottom: 4em;
+   
+}
+
+.info {
+    background-color:#343a40;
+    border-color: darkgrey;
+}
+
+footer {
+    background-color: rgb(219, 104, 27);
+}
+
+.info_footer {
+    margin-top:2em;
 }
